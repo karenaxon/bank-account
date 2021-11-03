@@ -2,7 +2,7 @@
 Describe: BankAccount()
 
 Test: It should return an object with properties user, accountNumber and balance.
-Code: const account1 = new BankAccount("user1", 1);
+Code: const account1 = new BankAccount("user1");
 Expected Output: account1 = {user: 'user1', accountNumber: 1, balance: 0}
 
 Describe: User()
@@ -16,3 +16,8 @@ User.prototype.fullName = function ()
 Test: It should return the first name + last name.
 Code: const user1.fullName();
 Expected Output: Sam Lewis
+
+function assignAcctNumber()
+Test: It should return an integer.
+Code: assignAcctNumber();
+Expected Output: 1; 
